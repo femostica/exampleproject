@@ -1,0 +1,72 @@
+#wrapper nav a:hover{
+    color: red!important;
+}
+html{
+    /*scroll-behavior: smooth;*/
+}
+#wrapper nav a{
+    word-spacing: 1px;
+}
+#wrapper ul li{
+    display: inline;
+}
+#bitcoin .fa{
+    color: red;
+    font-size: 30px;
+    border: 1px solid yellow;
+    border-radius: 50%;
+    padding: 5px;
+    background: yellow;
+
+}
+@media(max-width:762px){
+    #main img{
+        height: 250px;
+    }
+
+}
+
+#blog{
+    font-size: 17px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: navy!important;
+}
+
+
+#joincox{
+    border: 1px solid red;
+    border-radius: 20px;
+    background: red!important;
+    width: 40%;
+    margin: 0 auto; 
+    animation-name: joincox;
+    animation-duration: 2s;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+    animation-delay: 2s;
+}
+
+
+@keyframes joincox{
+from{
+    transform: scale(0.8)
+}
+to{
+    transform: scale(1)
+}
+}
+#footer p{
+    margin: 15px auto;
+    color: white;
+    font-size: 14px;
+    border-bottom: 1px solid white;
+    text-align: center;
+    width: 120px;
+    border-radius: 20px;
+}
+#footer a{
+    text-align: center;
+    font-size: 13px;
+    
+}
